@@ -111,12 +111,12 @@ void get_results_of_additional_task(double ( *additional_results)[SIZE], const i
 
 void print_additional_results(double ( *additional_results)[SIZE])
 {
-    std::cout << "Trapezoidal method (h = (pi / 200)): " << additional_results[TRAPEZOIDAL][0] << std::endl;
-    std::cout << "Trapezoidal method (h = (pi / 400)): " << additional_results[TRAPEZOIDAL][1] << std::endl;
+    std::cout << "Trapezoidal method (h = ((pi / 2) / n)): " << additional_results[TRAPEZOIDAL][0] << std::endl;
+    std::cout << "Trapezoidal method (h = ((pi / 2) / (2 * n))): " << additional_results[TRAPEZOIDAL][1] << std::endl;
     std::cout << std::endl;
 
-    std::cout << "Simpson method (h = (pi / 200)): " << additional_results[SIMPSON][0] << std::endl;
-    std::cout << "Simpson method (h = (pi / 400)): " << additional_results[SIMPSON][1] << std::endl;
+    std::cout << "Simpson method (h = ((pi / 2) / n)): " << additional_results[SIMPSON][0] << std::endl;
+    std::cout << "Simpson method (h = ((pi / 2) / (2 * n))): " << additional_results[SIMPSON][1] << std::endl;
 }
 
 int main()
