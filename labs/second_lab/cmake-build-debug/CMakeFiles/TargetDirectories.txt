@@ -1,3 +1,0 @@
-/home/mrx/Programming/math_programming/labs/second_lab/cmake-build-debug/CMakeFiles/second_lab.dir
-/home/mrx/Programming/math_programming/labs/second_lab/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/mrx/Programming/math_programming/labs/second_lab/cmake-build-debug/CMakeFiles/rebuild_cache.dir
